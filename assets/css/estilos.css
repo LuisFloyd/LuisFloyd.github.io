@@ -2,6 +2,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.numeros{
+  font-family: "Nunito", sans-serif;
+}
+
 /* Hero Section */
 
 #Hero-Section {
@@ -37,3 +41,34 @@ body {
   }
 
 }
+.card {
+  box-sizing: border-box;
+  background-color: #a340ff;
+  object-fit: cover; 
+}
+.card a {
+  margin: 1em;
+}
+
+.imagen{
+  margin: .15em;
+}
+
+.grilla{
+  border-style: solid;
+  border-color: white;
+  background-color: skyblue;
+  padding: 1em;
+  margin: auto;
+  width: 90%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+}
+
+.btnCard{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
